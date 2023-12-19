@@ -19,6 +19,7 @@ body{
 }
 
 .navbar li a{
+  left: 50%;
   display: block;
   color: white;
   text-align: center;
@@ -36,4 +37,5 @@ body{
 
 .active {
   border-bottom: solid #016bee;
+  color: #016bee;
 }
