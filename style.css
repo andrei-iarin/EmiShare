@@ -1,41 +1,55 @@
-body{
-  background-color: rgb(34, 34, 34);
-  margin: 0;
-}
-
-.navbar ul {
-  list-style-type: none;
+*{
+  box-sizing: border-box;
+  background-color: #1c222f;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
-.navbar li {
-  float: left;
+li, a, button{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.navbar{
+  list-style: none;
+}
+
+.navbar li{
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .navbar li a{
-  left: 50%;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px 22px;
-  text-decoration: none;
-  transition: all 0.5s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
-
-.navbar a:hover:not(.active) {
-  background-color: #a2a2a2;
+.navbar li a:hover:not(.active){
+  padding: 10px;
   border-radius: 5px;
+  background-color: gray;
 }
 
-
-.active {
-  border-bottom: solid #016bee;
+.active{
+  padding: 10px;
   color: #016bee;
+  border-bottom: solid #016bee;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: #016bee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
