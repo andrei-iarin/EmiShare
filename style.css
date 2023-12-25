@@ -5,13 +5,14 @@
   padding: 0;
 }
 
-ul, li, a, button{
+ul, li, a, button, i{
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: white;
   text-decoration: none;
-  background-color: rgb(23, 42, 66);}
+  background-color: rgb(23, 42, 66);
+}
 
 header{
   display: flex;
@@ -35,7 +36,7 @@ header{
 }
 
 .navbar li a:hover:not(.active){
-  padding: 10px;
+  padding: 10px 35px;
   border-radius: 5px;
   background-color: gray;
 }
