@@ -47,7 +47,7 @@ header{
 }
 
 .active{
-  padding: 10px;
+  padding: 10px 35px;
   color: #016bee;
   border-bottom: solid #016bee 3px;
 }
